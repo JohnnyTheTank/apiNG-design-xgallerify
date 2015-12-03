@@ -1,0 +1,36 @@
+{
+  "name": "apiNG-design-xgallerify",
+  "homepage": "https://github.com/JohnnyTheTank/apiNG-design-xgallerify",
+  "authors": [
+    "Jonathan Hornung <jonathan.hornung@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "description": "image design for apiNG (based on xgallerify)",
+  "main": "dist/angular-design-xgallerify.min.js",
+  "moduleType": [],
+  "keywords": [
+    "aping",
+    "angularjs",
+    "design",
+    "xgallerify",
+    "rest",
+    "api",
+    "json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "apiNG": "*",
+    "apiNG-plugin-facebook": "*",
+    "apiNG-plugin-codebird": "*",
+    "apiNG-plugin-instagram": "*",
+    "angular-xGallerify": "*"
+  }
+}

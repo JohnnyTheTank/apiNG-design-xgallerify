@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>apiNG xGallerify Design Demo</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../dist/aping-design-xgallerify.min.css">
+
+    <!-- JS -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+
+    <script src="../bower_components/apiNG/dist/aping.min.js"></script>
+
+    <script src="../bower_components/apiNG-plugin-instagram/dist/aping-plugin-instagram.min.js"></script>
+    <script src="../bower_components/apiNG-plugin-facebook/dist/aping-plugin-facebook.min.js"></script>
+    <script src="../bower_components/apiNG-plugin-codebird/dist/aping-plugin-codebird.min.js"></script>
+
+    <script src="../src/aping-design-xgallerify.js"></script>
+
+    <script src="js/aping-config.js"></script>
+    <script src="js/app.js"></script>
+
+</head>
+<body ng-app="app">
+    <div class="container">
+        <br>
+        <aping
+                type="social"
+                aping-youtube="[{'search':'munich'},{'search':'berlin'}]"
+                aping-instagram="[{'tag':'paris'}]">
+        </aping>
+    </div>
+
+</body>
+</html>
