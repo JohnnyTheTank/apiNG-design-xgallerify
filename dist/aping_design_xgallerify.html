@@ -1,9 +1,8 @@
 <div class="aping-design-xgallerify">
     <div ng-controller="apingXgallerifyDesignController">
-        <div>
-            <div ng-repeat="item in workingCopy">
-                <pre>{{::item | json}}</pre>
-            </div>
+        <div images-loaded xgallerify>
+                <!--<pre>{{::item | json}}</pre>-->
+            <img ng-repeat="item in workingCopy" ng-src="{{item.img_url}}" alt="">
         </div>
     </div>
 </div>
