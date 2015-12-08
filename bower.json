@@ -28,9 +28,6 @@
   "dependencies": {
     "jquery": "*",
     "apiNG": "*",
-    "apiNG-plugin-facebook": "*",
-    "apiNG-plugin-codebird": "*",
-    "apiNG-plugin-instagram": "*",
     "angular-xGallerify": "*"
   }
 }
