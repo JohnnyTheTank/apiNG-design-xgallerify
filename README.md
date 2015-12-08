@@ -1,5 +1,5 @@
 # apiNG-design-xgallerify
-Image design for apiNG based on [xGallerify](https://github.com/xremix/xGallerify)
+Image design for apiNG based on [xGallerify](https://github.com/xremix/xGallerify) ([angular-xGallerify](https://github.com/JohnnyTheTank/angular-xGallerify))
 
 ## Demo
 [**simple demo**](https://rawgit.com/JohnnyTheTank/apiNG-design-xgallerify/master/demo/)
