@@ -3,9 +3,7 @@
 apingApp.config(['$provide', function ($provide) {
 
     $provide.constant("apingApiKeys", {
-        twitter: [
-            {'bearer_token':'AAAAAAAAAAAAAAAAAAAAACs3iwAAAAAA%2BH8LdT7YfKIzk8fvQvqKvoePuxo%3DMKfXX2ojtacGL8aOLAhlBDUrEFpy0DUuiyebet22Wa2YVrX7cc'}
-        ]
+
     });
 
     $provide.constant("apingDefaultSettings", {
@@ -15,6 +13,11 @@ apingApp.config(['$provide', function ($provide) {
         orderBy : "timestamp",
         orderReverse : "true",
         model: "image",
+        apingApiKeys: {
+            twitter: [
+                {'bearer_token':'AAAAAAAAAAAAAAAAAAAAACs3iwAAAAAA%2BH8LdT7YfKIzk8fvQvqKvoePuxo%3DMKfXX2ojtacGL8aOLAhlBDUrEFpy0DUuiyebet22Wa2YVrX7cc'}
+            ]
+        }
     });
 
 }]);

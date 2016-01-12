@@ -4,7 +4,7 @@
   "authors": [
     "Jonathan Hornung <jonathan.hornung@gmail.com>"
   ],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "image design for apiNG (based on xgallerify)",
   "main": "dist/angular-design-xgallerify.min.js",
   "moduleType": [],
@@ -28,6 +28,7 @@
   "dependencies": {
     "jquery": "*",
     "apiNG": "*",
-    "angular-xGallerify": "*"
+    "angular-xGallerify": "*",
+    "angular-images-loaded-jtt": "*"
   }
 }
