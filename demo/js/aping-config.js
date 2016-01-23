@@ -1,6 +1,6 @@
 "use strict";
 
-apingApp.config(['$provide', function ($provide) {
+angular.module('jtt_aping').config(['$provide', function ($provide) {
 
     $provide.constant("apingApiKeys", {
 
