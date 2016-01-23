@@ -16,13 +16,13 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
 
     <!-- apiNG -->
-    <script src="//rawgit.com/JohnnyTheTank/apiNG/master/dist/aping.min.js"></script>
+    <script src="//cdn.jsdelivr.net/aping/1/aping.min.js"></script>
     <script src="js/aping-config.js"></script>
 
-    <script src="//rawgit.com/JohnnyTheTank/apiNG-plugin-codebird/master/dist/aping-plugin-codebird.min.js"></script>
+    <script src="//cdn.jsdelivr.net/aping.plugin-codebird/latest/aping-plugin-codebird.min.js"></script>
 
-    <script src="//cdn.rawgit.com/xremix/xGallerify/master/dist/jquery.xgallerify.min.js"></script>
-    <script src="//cdn.rawgit.com/JohnnyTheTank/angular-xGallerify/master/dist/angular-xgallerify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.xgallerify/latest/jquery.xgallerify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/angular.xgallerify/latest/angular-xgallerify.min.js"></script>
     <script src="//rawgit.com/JohnnyTheTank/angular-images-loaded-custom/master/dist/angular-images-loaded-directive.min.js"></script>
 
     <script src="../src/aping-design-xgallerify.js"></script>
@@ -37,6 +37,8 @@
             template-url="../src/aping_design_xgallerify.html"
             model="image"
             items="10"
+            order-by="timestamp"
+            order-reverse="true"
             aping-codebird="[{'user':'RalphLauren'},
                             {'user':'armani'}]">
         </aping>
