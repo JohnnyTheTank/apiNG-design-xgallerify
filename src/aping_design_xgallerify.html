@@ -1,7 +1,7 @@
 <div class="aping-design-xgallerify">
     <div ng-controller="apingXgallerifyDesignController">
         <div images-loaded xgallerify="{'margin':5, 'mode':'bootstrap'}">
-            <a ng-repeat="item in workingCopy" ng-if="item.post_url" ng-href="{{item.post_url}}" target="_blank">
+            <a ng-repeat="item in results" ng-if="item.post_url" ng-href="{{item.post_url}}" target="_blank">
                 <img class="image" ng-src="{{::item.img_url}}" alt="{{::item.text}}" title="{{::item.text}}">
             </a>
         </div>

@@ -4,7 +4,7 @@ angular.module('jtt_aping_design_xgallerify', ['jtt_angular_xgallerify', 'jtt_im
     .controller('apingXgallerifyDesignController', ['$scope', function ($scope) {
 
         $scope.$on('apiNG.resultMerged', function () {
-            $scope.workingCopy = $scope.results;
+            //$scope.workingCopy = $scope.results;
         });
 
         $scope.$on('imagesLoaded.ALWAYS', function() {
